@@ -1,0 +1,238 @@
+2025-03-31 17:48:47,925 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.26.18:5000
+2025-03-31 17:48:47,927 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 17:49:34,609 - INFO - 127.0.0.1 - - [31/Mar/2025 17:49:34] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-31 17:49:35,788 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:49:35,894 - WARNING - History not updated due to database issues
+2025-03-31 17:49:35,899 - INFO - 127.0.0.1 - - [31/Mar/2025 17:49:35] "POST /chat HTTP/1.1" 200 -
+2025-03-31 17:55:21,390 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.26.18:5000
+2025-03-31 17:55:21,394 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 17:55:57,355 - INFO - 127.0.0.1 - - [31/Mar/2025 17:55:57] "OPTIONS /chat HTTP/1.1" 200 -
+2025-03-31 17:55:58,351 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:55:58,443 - WARNING - History not updated due to database issues
+2025-03-31 17:55:58,443 - INFO - 127.0.0.1 - - [31/Mar/2025 17:55:58] "POST /chat HTTP/1.1" 200 -
+2025-03-31 18:18:13,988 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.26.18:5000
+2025-03-31 18:18:13,991 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 18:18:54,993 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.26.18:5000
+2025-03-31 18:18:54,993 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 18:19:21,996 - INFO - 127.0.0.1 - - [31/Mar/2025 18:19:21] "[33mOPTIONS /chat HTTP/1.1[0m" 404 -
+2025-03-31 18:19:27,071 - INFO - 127.0.0.1 - - [31/Mar/2025 18:19:27] "[33mOPTIONS /chat HTTP/1.1[0m" 404 -
+2025-04-01 09:24:42,344 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.26.18:5000
+2025-04-01 09:24:42,346 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 09:25:14,580 - INFO - 127.0.0.1 - - [01/Apr/2025 09:25:14] "[33mOPTIONS /chat HTTP/1.1[0m" 404 -
+2025-04-01 09:25:17,903 - INFO - 127.0.0.1 - - [01/Apr/2025 09:25:17] "[33mOPTIONS /chat HTTP/1.1[0m" 404 -
+2025-04-01 21:36:44,024 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.26.18:5000
+2025-04-01 21:36:44,026 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 21:37:22,600 - INFO - 127.0.0.1 - - [01/Apr/2025 21:37:22] "[33mOPTIONS /chat HTTP/1.1[0m" 404 -
+2025-04-01 21:50:31,914 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.26.18:5000
+2025-04-01 21:50:31,915 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-01 22:06:30,080 - ERROR - MONGODB_URI not found in environment variables
+2025-04-01 22:06:30,824 - WARNING - Running without MongoDB connection
+2025-04-01 22:06:30,824 - INFO - Starting server on port 5000 (debug: False)
+2025-04-01 22:06:53,093 - INFO - Received request from 127.0.0.1
+2025-04-01 22:06:53,093 - WARNING - MongoDB not available - using empty history
+2025-04-01 22:06:54,156 - ERROR - Server error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\mental health support chatbot\chatbot\backend\server.py", line 225, in chat
+    response = llm.invoke(formatted_prompt)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\language_models\chat_models.py", line 307, in invoke
+    self.generate_prompt(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\language_models\chat_models.py", line 843, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\language_models\chat_models.py", line 683, in generate
+    self._generate_with_cache(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\language_models\chat_models.py", line 908, in _generate_with_cache
+    result = self._generate(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_groq\chat_models.py", line 503, in _generate
+    response = self.client.create(messages=message_dicts, **params)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\groq\resources\chat\completions.py", line 322, in create
+    return self._post(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\groq\_base_client.py", line 1225, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\groq\_base_client.py", line 917, in request
+    return self._request(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\groq\_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-04-01 22:06:57,835 - INFO - Received request from 127.0.0.1
+2025-04-01 22:06:57,835 - WARNING - MongoDB not available - using empty history
+2025-04-01 22:06:58,003 - ERROR - Server error: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\mental health support chatbot\chatbot\backend\server.py", line 225, in chat
+    response = llm.invoke(formatted_prompt)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\language_models\chat_models.py", line 307, in invoke
+    self.generate_prompt(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\language_models\chat_models.py", line 843, in generate_prompt
+    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\language_models\chat_models.py", line 683, in generate
+    self._generate_with_cache(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_core\language_models\chat_models.py", line 908, in _generate_with_cache
+    result = self._generate(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\langchain_groq\chat_models.py", line 503, in _generate
+    response = self.client.create(messages=message_dicts, **params)
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\groq\resources\chat\completions.py", line 322, in create
+    return self._post(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\groq\_base_client.py", line 1225, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\groq\_base_client.py", line 917, in request
+    return self._request(
+  File "C:\Users\USER\AppData\Local\Programs\Python\Python310\lib\site-packages\groq\_base_client.py", line 1020, in _request
+    raise self._make_status_error_from_response(err.response) from None
+groq.AuthenticationError: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-04-02 08:34:24,883 - INFO - MongoDB connection successful
+2025-04-02 08:56:56,266 - INFO - MongoDB connection successful
+2025-04-02 09:03:21,361 - INFO - MongoDB connection successful
+2025-04-02 09:03:22,528 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743564791, 14), 'signature': {'hash': b'\xa4\xaf\x91\x7f\x87\xfc\xf1\xd2\xbbk\xa8l\x8b\xd6I\x1e\xdc\xe9\xe4q', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743564791, 14)}
+2025-04-02 09:03:22,532 - INFO - Starting server on port 5000 (debug: True)
+2025-04-02 09:15:10,960 - INFO - MongoDB connection successful
+2025-04-02 09:15:11,896 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743565509, 1), 'signature': {'hash': b'N\xab\xda\xe8\xcd\x96\x00\xe4>S\n\xa3\x87\xab\xd0]\xaat\xc7I', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743565509, 1)}
+2025-04-02 09:15:11,897 - INFO - Starting server on port 5000 (debug: True)
+2025-04-02 09:33:46,818 - INFO - MongoDB connection successful
+2025-04-02 09:33:47,756 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743566626, 2), 'signature': {'hash': b'\xd0\x8c.\x1fe\x05\xb9\xa3\x92\xcfr\x1f(\xcf\x88fZi\xf5\xf9', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743566626, 2)}
+2025-04-02 09:33:47,756 - INFO - Starting server on port 5000 (debug: True)
+2025-04-02 09:48:41,373 - INFO - MongoDB connection successful
+2025-04-02 09:48:42,390 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743567520, 14), 'signature': {'hash': b'\xf6\xfc\xfd\xa0\x12\xe9\x98\xd1\rF\xfb\x0e];\xec\x04XP\xdc_', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743567520, 14)}
+2025-04-02 09:48:42,390 - INFO - Starting server on port 5000 (debug: True)
+2025-04-02 09:48:49,051 - INFO - MongoDB connection successful
+2025-04-02 09:48:49,908 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743567528, 2), 'signature': {'hash': b'\xdf\xed\xc3\xe4u\x89x\xfcP\xa40\xc4D\x1fi+i\x8d\xfc;', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743567528, 2)}
+2025-04-02 09:48:49,914 - INFO - Starting server on port 5000 (debug: True)
+2025-04-02 09:50:29,574 - INFO - Received request from 127.0.0.1
+2025-04-02 09:50:39,054 - INFO - Received request from 127.0.0.1
+2025-04-02 09:50:47,005 - INFO - Received request from 127.0.0.1
+2025-04-02 09:52:06,696 - INFO - Received request from 127.0.0.1
+2025-04-02 09:52:42,160 - INFO - Received request from 127.0.0.1
+2025-04-02 09:52:50,593 - INFO - Received request from 127.0.0.1
+2025-04-02 09:52:56,569 - INFO - Received request from 127.0.0.1
+2025-04-02 13:57:55,815 - INFO - MongoDB connection successful
+2025-04-02 13:57:57,389 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743582474, 3), 'signature': {'hash': b'\xd6\x0e\xba\x83\xe8j\x9e~&Mg7\xac\x9aT\xa3le\xf3\xb3', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743582474, 3)}
+2025-04-02 13:57:57,393 - INFO - Starting server on port 5000 (debug: True)
+2025-04-02 13:58:06,444 - INFO - MongoDB connection successful
+2025-04-02 13:58:07,866 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743582485, 1), 'signature': {'hash': b'\xad3H\x8ffH\xb21J\x92#n\xdd\xd5\xea\xb7\x81\xb77\xb9', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743582485, 1)}
+2025-04-02 13:58:07,866 - INFO - Starting server on port 5000 (debug: True)
+2025-04-02 13:59:11,110 - INFO - Received request from 127.0.0.1
+2025-04-02 13:59:20,328 - INFO - Received request from 127.0.0.1
+2025-04-02 13:59:42,725 - INFO - Received request from 127.0.0.1
+2025-04-02 13:59:47,909 - INFO - Received request from 127.0.0.1
+2025-04-02 14:00:17,645 - INFO - Received request from 127.0.0.1
+2025-04-02 14:00:29,394 - INFO - Received request from 127.0.0.1
+2025-04-02 14:00:42,896 - INFO - Received request from 127.0.0.1
+2025-04-02 14:00:59,844 - INFO - Received request from 127.0.0.1
+2025-04-02 14:01:07,159 - INFO - Received request from 127.0.0.1
+2025-04-02 14:01:11,863 - INFO - Received request from 127.0.0.1
+2025-04-02 14:04:59,280 - INFO - Received request from 127.0.0.1
+2025-04-02 14:05:09,887 - INFO - Received request from 127.0.0.1
+2025-04-02 14:05:19,367 - INFO - Received request from 127.0.0.1
+2025-04-02 14:07:45,751 - INFO - Received request from 127.0.0.1
+2025-04-02 14:08:01,547 - INFO - Received request from 127.0.0.1
+2025-04-02 14:12:27,233 - INFO - Received request from 127.0.0.1
+2025-04-02 14:13:52,532 - INFO - Received request from 127.0.0.1
+2025-04-03 18:32:05,793 - INFO - MongoDB connection successful
+2025-04-03 18:32:07,220 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743685317, 1), 'signature': {'hash': b'\x89)\x01\x87\xdfr{|\x8f#\x9dp\xd1\x15\xfcHQH\xa1P', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743685317, 1)}
+2025-04-03 18:32:07,220 - INFO - Starting server on port 5000 (debug: True)
+2025-04-03 18:32:23,386 - INFO - MongoDB connection successful
+2025-04-03 18:32:24,798 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743685338, 1), 'signature': {'hash': b'\xf4\x037\xfc]\x0b\x1c\xec\x0b\x9e$Q{Y\x95\xedo\xecM`', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743685338, 1)}
+2025-04-03 18:32:24,802 - INFO - Starting server on port 5000 (debug: True)
+2025-04-03 18:33:45,889 - INFO - Received request from 127.0.0.1
+2025-04-03 18:54:26,479 - INFO - Received request from 127.0.0.1
+2025-04-03 18:55:10,429 - INFO - Received request from 127.0.0.1
+2025-04-03 18:56:12,534 - INFO - Received request from 127.0.0.1
+2025-04-03 18:56:21,222 - INFO - Received request from 127.0.0.1
+2025-04-03 18:56:28,568 - INFO - Received request from 127.0.0.1
+2025-04-03 18:58:28,626 - INFO - Received request from 127.0.0.1
+2025-04-03 18:58:45,553 - INFO - Received request from 127.0.0.1
+2025-04-03 18:59:06,151 - INFO - Received request from 127.0.0.1
+2025-04-03 18:59:39,859 - INFO - Received request from 127.0.0.1
+2025-04-03 19:00:05,244 - INFO - Received request from 127.0.0.1
+2025-04-03 19:00:47,491 - INFO - Received request from 127.0.0.1
+2025-04-03 19:00:57,652 - INFO - Received request from 127.0.0.1
+2025-04-03 19:00:59,205 - INFO - Received request from 127.0.0.1
+2025-04-03 19:02:18,751 - INFO - Received request from 127.0.0.1
+2025-04-03 19:02:55,636 - INFO - Received request from 127.0.0.1
+2025-04-03 19:03:46,119 - INFO - Received request from 127.0.0.1
+2025-04-03 19:04:11,861 - INFO - Received request from 127.0.0.1
+2025-04-03 19:05:54,682 - INFO - Received request from 127.0.0.1
+2025-04-03 19:06:28,134 - INFO - Received request from 127.0.0.1
+2025-04-03 19:06:34,501 - INFO - Received request from 127.0.0.1
+2025-04-03 19:07:17,336 - INFO - Received request from 127.0.0.1
+2025-04-03 19:07:27,315 - INFO - Received request from 127.0.0.1
+2025-04-03 19:10:41,899 - INFO - Received request from 127.0.0.1
+2025-04-03 19:11:27,243 - INFO - Received request from 127.0.0.1
+2025-04-03 19:11:34,276 - INFO - Received request from 127.0.0.1
+2025-04-03 19:11:58,079 - INFO - Received request from 127.0.0.1
+2025-04-03 19:12:39,487 - INFO - Received request from 127.0.0.1
+2025-04-03 19:25:29,561 - INFO - Received request from 127.0.0.1
+2025-04-04 08:35:20,505 - INFO - MongoDB connection successful
+2025-04-04 08:35:21,873 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743735901, 1), 'signature': {'hash': b'\\\xf3}\xa4\xc6\xff\xa7\xe2\x866\x1a4B\x1e\x04.\xcb\x91\xf6\xc7', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743735901, 1)}
+2025-04-04 08:35:21,877 - INFO - Starting server on port 5000 (debug: True)
+2025-04-04 08:35:30,530 - INFO - MongoDB connection successful
+2025-04-04 08:35:33,491 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743735923, 1), 'signature': {'hash': b'\xab\xedg\x91J\xb0\xb5:\x12\'\xcf9\xc2\x14\x19\xbb\x8ca\xf0"', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743735923, 1)}
+2025-04-04 08:35:33,493 - INFO - Starting server on port 5000 (debug: True)
+2025-04-04 08:51:22,906 - INFO - Received request from 127.0.0.1
+2025-04-04 08:52:02,034 - INFO - Received request from 127.0.0.1
+2025-04-04 08:52:34,492 - INFO - Received request from 127.0.0.1
+2025-04-04 08:52:54,090 - INFO - Received request from 127.0.0.1
+2025-04-04 08:54:01,317 - INFO - Received request from 127.0.0.1
+2025-04-04 08:55:14,801 - INFO - Received request from 127.0.0.1
+2025-04-04 08:55:32,796 - INFO - Received request from 127.0.0.1
+2025-04-04 08:55:46,739 - INFO - Received request from 127.0.0.1
+2025-04-04 08:56:06,100 - INFO - Received request from 127.0.0.1
+2025-04-04 08:56:17,899 - INFO - Received request from 127.0.0.1
+2025-04-04 08:56:31,998 - INFO - Received request from 127.0.0.1
+2025-04-04 08:56:43,546 - INFO - Received request from 127.0.0.1
+2025-04-04 08:57:07,588 - INFO - Received request from 127.0.0.1
+2025-04-04 08:57:22,992 - INFO - Received request from 127.0.0.1
+2025-04-04 08:57:37,095 - INFO - Received request from 127.0.0.1
+2025-04-04 08:57:59,909 - INFO - Received request from 127.0.0.1
+2025-04-04 08:58:36,771 - INFO - Received request from 127.0.0.1
+2025-04-04 08:58:48,377 - INFO - Received request from 127.0.0.1
+2025-04-04 08:59:09,382 - INFO - Received request from 127.0.0.1
+2025-04-04 08:59:23,895 - INFO - Received request from 127.0.0.1
+2025-04-04 09:00:03,563 - INFO - Received request from 127.0.0.1
+2025-04-04 09:00:35,388 - INFO - Received request from 127.0.0.1
+2025-04-04 09:00:50,258 - INFO - Received request from 127.0.0.1
+2025-04-04 09:01:01,763 - INFO - Received request from 127.0.0.1
+2025-04-04 09:01:20,227 - INFO - Received request from 127.0.0.1
+2025-04-04 09:02:41,130 - INFO - Received request from 127.0.0.1
+2025-04-04 09:03:36,144 - INFO - Received request from 127.0.0.1
+2025-04-04 09:04:03,622 - INFO - Received request from 127.0.0.1
+2025-04-04 09:05:41,863 - INFO - Received request from 127.0.0.1
+2025-04-04 09:06:17,378 - INFO - Received request from 127.0.0.1
+2025-04-04 09:17:01,087 - INFO - Received request from 127.0.0.1
+2025-04-04 09:19:18,423 - INFO - Received request from 127.0.0.1
+2025-04-04 09:20:14,530 - INFO - Received request from 127.0.0.1
+2025-04-04 09:20:30,222 - INFO - Received request from 127.0.0.1
+2025-04-04 11:16:33,025 - INFO - MongoDB connection successful
+2025-04-04 11:16:34,166 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743745588, 1), 'signature': {'hash': b'\x8c\xce\xbet(\xd0\xe7\xda6)\xd6\xf6\xd4P\xa4HA\\\xf5*', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743745588, 1)}
+2025-04-04 11:16:34,166 - INFO - Starting server on port 5000 (debug: True)
+2025-04-04 11:16:41,015 - INFO - MongoDB connection successful
+2025-04-04 11:16:41,940 - INFO - MongoDB server info: {'version': '8.0.6', 'gitVersion': '80f21521ad4a3dfd5613f5d649d7058c6d46277f', 'modules': ['enterprise'], 'allocator': 'tcmalloc-google', 'javascriptEngine': 'mozjs', 'sysInfo': 'deprecated', 'versionArray': [8, 0, 6, 0], 'bits': 64, 'debug': False, 'maxBsonObjectSize': 16777216, 'storageEngines': ['devnull', 'inMemory', 'queryable_wt', 'wiredTiger'], 'ok': 1.0, '$clusterTime': {'clusterTime': Timestamp(1743745593, 2), 'signature': {'hash': b'\xb7\x8e&\xa8\xa6\x07\x870\xd1\xbf\xc1\xea0BF\x08\xa1\xd5]\x9e', 'keyId': 7486882876084977669}}, 'operationTime': Timestamp(1743745593, 2)}
+2025-04-04 11:16:41,940 - INFO - Starting server on port 5000 (debug: True)
+2025-04-04 11:18:04,243 - INFO - Received request from 127.0.0.1
+2025-04-04 11:18:12,455 - INFO - Received request from 127.0.0.1
+2025-04-04 11:18:29,502 - INFO - Received request from 127.0.0.1
+2025-04-04 11:18:42,690 - INFO - Received request from 127.0.0.1
+2025-04-04 11:19:06,827 - INFO - Received request from 127.0.0.1
+2025-04-04 11:19:17,471 - INFO - Received request from 127.0.0.1
+2025-04-04 11:19:41,239 - INFO - Received request from 127.0.0.1
+2025-04-04 11:19:53,913 - INFO - Received request from 127.0.0.1
+2025-04-04 11:20:16,057 - INFO - Received request from 127.0.0.1
